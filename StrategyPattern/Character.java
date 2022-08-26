@@ -12,7 +12,7 @@ abstract public class Character {
   }
    abstract void fight();
 
-   public void  SetWeapon( WeaponBehaviour to ){
+   public void  SetWeapon( WeaponBehaviour to ){.   //to change the behaviour at runtime 
        behaviour = to ;
    }
 
